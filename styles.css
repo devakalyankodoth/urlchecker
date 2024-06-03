@@ -1,0 +1,6 @@
+body{
+    /* background-image: url(bgm.png); */
+    background-image: linear-gradient(violet,);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

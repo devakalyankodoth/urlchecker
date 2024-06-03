@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Link Extractor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Website Link Extractor</h1>
+        <form id="linkForm">
+            <label for="websiteUrls">Enter Website URLs (separated by comma):</label>
+            <input type="text" id="websiteUrls" name="websiteUrls" required>
+            <button type="submit" style="color: blue;">Extract Links</button>
+        </form>
+        <div id="linksContainer"></div>
+        <button id="downloadBtn" style="display: none;">Download as Excel</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
